@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7FC09F3A-D182-4A93-9B73-FD5CDEBF042C}</ProjectGuid>
+    <ProjectGuid>{95B0EE0C-D4E0-4FC8-A0AC-7297DF7573EE}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>AwesomeApp.Droid.App2</RootNamespace>
-    <AssemblyName>App2.Droid</AssemblyName>
+    <RootNamespace>AwesomeApp.Droid.App3</RootNamespace>
+    <AssemblyName>App3.Droid</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -54,9 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\layout\Page_Welcome.axml" />
-    <AndroidResource Include="Resources\layout\Main.axml" />
-    <AndroidResource Include="Resources\Layout-land\Page_Welcome.axml" />
+    <AndroidResource Include="Resources\Layout\Page_Welcome.axml" />
+    <AndroidResource Include="Resources\Layout\Main.axml" />
+    <AndroidResource Include="Resources\layout-land\Page_Welcome.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
@@ -65,8 +65,8 @@
     <Folder Include="Resources\mipmap-xxhdpi\" />
     <Folder Include="Resources\mipmap-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Resources\layout\" />
-    <Folder Include="Resources\Layout-land\" />
+    <Folder Include="Resources\Layout\" />
+    <Folder Include="Resources\layout-land\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AwesomeApp.Droid\AwesomeApp.Droid.csproj">

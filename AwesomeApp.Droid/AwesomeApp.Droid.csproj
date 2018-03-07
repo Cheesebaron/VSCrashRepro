@@ -49,10 +49,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\layout\Page_Welcome.axml" />
+    <AndroidResource Include="Resources\layout-land\Page_Welcome.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
     <Folder Include="Views\" />
+    <Folder Include="Resources\layout-land\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
