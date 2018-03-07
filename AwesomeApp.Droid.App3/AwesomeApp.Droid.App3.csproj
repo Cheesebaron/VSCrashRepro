@@ -54,9 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\Layout\Page_Welcome.axml" />
-    <AndroidResource Include="Resources\Layout\Main.axml" />
-    <AndroidResource Include="Resources\layout-land\Page_Welcome.axml" />
+    <AndroidResource Include="Resources\Layout\Page_Welcome.xml" />
+    <AndroidResource Include="Resources\Layout\Main.xml" />
+    <AndroidResource Include="Resources\layout-land\Page_Welcome.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

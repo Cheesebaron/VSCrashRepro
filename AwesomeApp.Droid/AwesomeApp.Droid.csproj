@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\layout\Page_Welcome.axml" />
-    <AndroidResource Include="Resources\layout-land\Page_Welcome.axml" />
+    <AndroidResource Include="Resources\layout\Page_Welcome.xml" />
+    <AndroidResource Include="Resources\layout-land\Page_Welcome.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
